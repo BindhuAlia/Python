@@ -1,0 +1,17 @@
+s1=input('Enter string 1')
+s2=input('Enter string 2')
+
+#To convert strings into lower case
+
+s1=s1.lower( )
+s2=s2.lower( )
+
+#To check string lengths are same or not
+
+if(len(s1)==len(s2)):
+	if(sorted(s1)==sorted(s2)):
+		print('Anagram')
+	else:
+		print('Not anagram')
+else:
+	print('Not anagram')
