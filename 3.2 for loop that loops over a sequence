@@ -1,0 +1,14 @@
+#For loop in list
+color=['blue','black','green','pink','brown']
+for i in color:
+  print(i)
+
+#For loop in string
+str="Namsan tower"
+for i in str:
+  print(i)
+
+#For loop in dictionary
+d={1:'k',2:'o',3:'r',4:'e',5:'a'}
+for i in d:
+  print(i)
