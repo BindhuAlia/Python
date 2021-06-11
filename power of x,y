@@ -1,0 +1,9 @@
+def expo(x,y):
+  if(y==0):
+    return 1
+  else:
+    return(x*expo(x,y-1))
+
+n=int(input("Enter first number"))
+m=int(input("Enter second number"))
+print("Result =",expo(n,m)
