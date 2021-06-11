@@ -1,0 +1,11 @@
+def rsum(n):
+  if n<=1:
+    return n
+  else:
+    return n+rsum(n-1)
+
+num=int(input("enter range"))
+if(num<0):
+  print("enter positive number")
+else:
+  print(rsum(num))
