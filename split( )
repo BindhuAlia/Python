@@ -1,0 +1,8 @@
+a=re.split(r'y','Analytics')
+print(a)
+
+b=re.split(r'i','Analytics Vidhya')
+print(b)
+
+c=re.split(r'i','Analtytics Vidhya',maxsplit=1)
+print(c)
