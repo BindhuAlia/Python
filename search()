@@ -1,0 +1,7 @@
+import re
+st="hello everyone gudmrng"
+p="everyone"
+if re.search(p,st):
+  print("found")
+else:
+  print("not found")
