@@ -1,0 +1,6 @@
+import re
+st="hello hello welcome to python"
+p="hello"
+repl="hi"
+new_st=re.sub(p,repl,st)
+print(new_st)
