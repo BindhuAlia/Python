@@ -1,0 +1,5 @@
+import re
+p=r"[a-zA-Z]+\d+"
+m=re.findall(p,"hmt 2015 titan 2010 rollex timewell")
+for i in m:
+  print(i,end=" ")
