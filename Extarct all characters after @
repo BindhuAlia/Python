@@ -1,0 +1,9 @@
+import re
+res=re.findall(r'@\w+','bindhu@gmail.com,alia@yahoo.com,eden23@rediff.com')
+print(res)
+
+b=re.findall(r'@\w+.\w+','bindhu@gmail.com,alia@yahoo.com,eden23@rediff.com')
+print(b)
+
+c=re.findall(r'@\w+.(\w+)','bindhu@gmail.com,alia@yahoo.com,eden23@rediff.com')
+print(c)
