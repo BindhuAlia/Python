@@ -1,0 +1,3 @@
+import re
+res=re.findall(r'\b\w.','python programming language')
+print(res)
