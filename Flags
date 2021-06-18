@@ -1,0 +1,8 @@
+import re
+match=re.findall(r'hi','Hi, did you ship it Hillary?')
+for i in match:
+  print(i)
+
+match2=re.findall(r'hi','Hi,did you ship it Hillary?',re.IGNORECASE)
+for i in match2:
+  print(i)
