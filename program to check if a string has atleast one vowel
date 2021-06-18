@@ -1,0 +1,6 @@
+import re
+p=r"[aeiou]"
+if re.search(p,"bindhu"):
+  print("matched")
+if re.search(p,"dfgtr"):
+  print("matched")
