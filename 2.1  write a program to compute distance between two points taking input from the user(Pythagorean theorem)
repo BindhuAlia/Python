@@ -1,0 +1,7 @@
+import math as m
+x1=int(input("enter first point of x coordinate"))
+x2=int(input("enter second point of x coordinate"))
+y1=int(input("enter first point of y coordinate"))
+y2=int(input("enter second point of y coordinate"))
+d=m.sqrt(m.pow((x2-x1),2)+m.pow((y2-y1),2))
+print('distance between two points is',d)
