@@ -1,0 +1,10 @@
+import re
+text="Ten 10 ,Twenty 20, Thirty 30"
+res=re.split("\D+",text) #method1
+res1=re.split(r"[^0-9]+",text)  #method2
+
+#print results.
+for ele in res:
+  print(ele)
+for elem in res1:
+  print(elem)
