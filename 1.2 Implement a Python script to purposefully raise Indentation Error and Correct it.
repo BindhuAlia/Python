@@ -1,0 +1,13 @@
+a=32
+ print("the value of a is",a)
+ 
+output:
+File "<ipython-input-2-7a3d6a065377>", line 3
+    print("the value of a is",a)
+    ^
+IndentationError: unexpected indent
+
+a=32
+print("the value of a is",a)
+output:
+the value of a is 32
