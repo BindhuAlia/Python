@@ -1,0 +1,8 @@
+import re
+s="""bindhu
+sri
+vendra"""
+r1=re.findall(r"^\w",s)
+r2=re.findall(r"^\w",s,flags=re.MULTILINE)
+print(r1)
+print(r2)
