@@ -1,0 +1,10 @@
+#program to demonstrate the use of {m,n}regular expression
+
+import re
+p=r"2{1,4}$"
+if re.match(p,"2"):
+  print("matched 2")
+if re.match(p,"222"):
+  print("matched 222")
+if re.match(p,"222222"):
+  print("matched 222222")
