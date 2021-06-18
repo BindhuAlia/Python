@@ -1,0 +1,6 @@
+import re
+p=r"hi(de)*"
+if re.search(p,"hidededede"):
+  print("matched")
+if re.search(p,"hi"):
+  print("match hi")  #0 or more de match
