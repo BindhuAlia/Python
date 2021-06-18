@@ -1,0 +1,13 @@
+#program that matches start of the string with b
+#and matches ends of the strings with k or both (using match method and #\A and \Z)
+import re
+values=["bird","brick","sack","jack","ram"]
+for value in values:
+  #match the start of a string
+  result=re.match("\Ab.+",value)
+  if result:
+    print("START MATCH[b]:",value)
+  #match the start of a string
+  result2=re.match(".+k\Z",value)
+  if result2:
+    print("END MATCH[k]:",value)
