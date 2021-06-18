@@ -1,0 +1,20 @@
+#python script as add.py that takes 2 arguments as command line arguments 
+#and perform arithmetic operations on them.
+#1)open putty and type ip address and click on open button
+#2) ask username and password  then username is 19A91A0501 and password is Aditya@123
+#3)$prompt    
+$vi add.py
+~
+~
+Press key i
+
+import sys as s
+print(int(s.argv[1])+int(s.argv[2]))
+~
+~
+
+Press Esc
+:wq
+
+$python3 add.py 15 5
+20
