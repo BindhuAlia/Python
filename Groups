@@ -1,0 +1,7 @@
+import re
+p=r"python(pr)ogramming"
+match=re.match(p,"pythonprogrammingpythonprogramming")
+if match:
+  print(match.group())
+  print(match.group(0))
+  print(match.group(1))
