@@ -12,3 +12,9 @@ for i in str:
 d={1:'k',2:'o',3:'r',4:'e',5:'a'}
 for i in d:
   print(i)
+  
+ #b)python script using a for loop that loops over a sequence
+st=int(input('enter starting limit'))
+en=int(input('enter ending limit'))
+for i in range(st,en+1):
+    print(i)
