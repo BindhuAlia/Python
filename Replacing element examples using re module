@@ -1,0 +1,18 @@
+#Replace all ocurrence of note irrespective of case with X
+import re
+a='This note should not be NoTeD'
+re.sub(r'note','X',a,flags=re.IGNORECASE)
+
+#Replace 1st occurance of 5 with five
+import re
+a='They ate 5 apples and 5 oranges'
+re.sub('5','five',a,count=1)
+
+#For given string replace 0xA0 with 0x7F and 0xC0 with 0x1F
+ip='start address: 0xA0,func1 address:0xC0'
+re.sub(r'0xA0','0x7F',re.sub(r'0xC0','0x1F',ip))
+
+#change word red to brown
+import re
+words='bred red spread credible'
+re.sub(r'\bred\b','brown',words)
