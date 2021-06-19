@@ -1,0 +1,22 @@
+#Filter all elements that do not contain e
+
+import re   
+items=['goal','new','user','sit','eat','dinner']
+[w for w in items if not re.search(r'e',w)]
+
+#Filter all elements that contain either a or w
+
+import re
+items=['goal','new','user','sit','eat','dinner']
+[w for w in items if re.search(r'a',w)or re.search(r'w',w)]
+
+#Filter elements that contain 42 surrounded by word characters
+
+words=['hi42bye','nice1423','bad42','cool_42a','fake4b','42ab']
+[w for w in words if re.search(r'\B42\B',w)]
+
+#Filter elements that start with den or end with ly
+
+import re
+items=['lovely','1\ndentist','2 lonely','eden','fly\n','dent']
+[e for e in items if re.search(r'\Aden',e) or re.search(r'ly\Z',e)]
