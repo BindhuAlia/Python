@@ -1,0 +1,14 @@
+#with digit using match method and ^ and $
+import re
+list=["123","4cat","dog5","6mouse"]
+for ele in list:
+
+  #see if string starts in digit
+  m=re.match("^\d",ele)
+  if m:
+    print("START:",ele)
+
+  #See if string ends in digit
+  m=re.match(".*\d$",ele)
+  if m:
+    print("END:",ele)
