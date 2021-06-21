@@ -1,0 +1,18 @@
+#WEEKDAY()
+import datetime as dt
+d=dt.date(2021,5,28)
+week=d.weekday()
+if(week==0):
+    print("Monday")
+if(week==1):
+    print("Tuesday")
+if(week==2):
+    print("Wednesday")
+if(week==3):    
+    print("Thursday")
+if(week==4):    
+    print("Friday")
+if(week==5):    
+    print("Saturday")
+if(week==6):    
+    print("Sunday")
