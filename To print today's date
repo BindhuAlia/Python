@@ -1,0 +1,8 @@
+
+import datetime as dt
+d=dt.date.today()
+print("current day",d.day)
+d=dt.date.today()
+print("current month",d.month)
+d=dt.date.today()
+print("current year",d.year)
