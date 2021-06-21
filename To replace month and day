@@ -1,0 +1,5 @@
+import datetime as dt
+d=dt.date(2019,2,15)
+print("Before replacing",d)
+d=d.replace(month=5,day=28)
+print("After replacing",d)
