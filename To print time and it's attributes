@@ -1,0 +1,7 @@
+
+import datetime as dt
+t=dt.time(11,34,23,132457)
+print("hour",t.hour)
+print("minute",t.minute)
+print("second",t.second)
+print("microsecond",t.microsecond)
