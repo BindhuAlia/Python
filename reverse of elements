@@ -1,0 +1,2 @@
+l=['hey','hi','hello']
+print(l[::-1])
