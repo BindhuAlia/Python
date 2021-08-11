@@ -1,0 +1,4 @@
+s="only losers search for excuses"
+words=s.split(" ")
+p=[word[::-1] for word in words]
+print(p)
