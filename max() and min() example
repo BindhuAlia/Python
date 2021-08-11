@@ -1,0 +1,14 @@
+names=[]
+marks=[]
+for i in range(5):
+  a=input("enter names")
+  names.append(a)
+  b=int(input("enter marks"))
+  marks.append(b)
+high=max(marks)
+low=min(marks)
+for i in range(5):
+  if high==marks[i]:
+    print(names[i]+"got highest marks")
+  if low == marks[i]:
+    print(names[i]+"got lowest marks")
