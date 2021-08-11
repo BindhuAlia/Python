@@ -1,0 +1,6 @@
+l=[]
+for i in range(5):
+  a=input("enter 5 names")
+  l.append(a)
+name=input("enter the name to get index")
+print(l.index(name))
