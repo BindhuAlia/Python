@@ -1,0 +1,7 @@
+s=input("enter string to be rotated")
+l=len(s)
+temp=s+s
+for i in range(l):
+  for j in range(l):
+    print(temp[i+j],end="")
+  print()
