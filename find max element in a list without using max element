@@ -1,0 +1,6 @@
+l=[6,7,8,9,35,57,76,87,9,67,8,5,587,5,87]
+max_ele=l[0]
+for i in l:
+  if i>max_ele:
+    max_ele = i
+print(max_ele)
