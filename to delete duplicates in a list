@@ -1,0 +1,6 @@
+l=[2,34,5,24,665,24,7,2]
+new_l=[]
+for i in l:
+  if i not in new_l:
+    new_l.append(i)
+print(new_l)
