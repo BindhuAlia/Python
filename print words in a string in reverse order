@@ -1,0 +1,3 @@
+s='artist of life'
+w=s.split(" ")
+print(w[::-1])
