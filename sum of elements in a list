@@ -1,0 +1,9 @@
+l=[]
+sum=0
+for i in range(3):
+  a=int(input("enter values in a list"))
+  l.append(a)
+print(l)
+for x in l:
+  sum=sum+x
+print(sum)
