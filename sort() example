@@ -1,0 +1,6 @@
+names=[]
+for name in range(5):
+  name=input("enter names")
+  names.append(name)
+names.sort()
+print(names)
