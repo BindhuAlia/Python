@@ -1,0 +1,5 @@
+l=[45,456,2,3,6,345,7]
+n=int(input("enter value to be inserted"))
+p=int(input("enter position "))
+l[p]=n
+print(l)
