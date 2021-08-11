@@ -1,0 +1,5 @@
+l=[6,7,8,9,35,57,76,87,9,67,8,5,587,5,87]
+new_l=[]
+for i in l:
+  new_l.append(i*i)
+print(new_l)
