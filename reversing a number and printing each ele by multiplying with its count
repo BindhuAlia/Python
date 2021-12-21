@@ -1,0 +1,10 @@
+n=(input('enter a number'))
+c=len(n)
+n=int(n)
+s=0
+while n>0:
+    r=n%10
+    print(c*r,end=' ')
+    s=s*10+r
+    n=n//10
+    
