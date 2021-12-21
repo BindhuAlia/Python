@@ -1,0 +1,8 @@
+s=input('enter a string')
+char_freq={}
+for i in s:
+    if i in char_freq:
+        char_freq[i] += 1
+    else:
+        char_freq[i] = 1
+print(char_freq)
