@@ -1,0 +1,17 @@
+u='Alia'
+p='Keo123'
+a=input('enter user name')
+if (u==a):
+    b=int(input("enter any number"))
+    if b%11==0:
+        c=input('enter password')
+        if(p==c):
+            print('successful login')
+        else:
+            print('invalid details')
+    else:
+        print('invalid key')
+else:
+        print('invalid user')
+
+
