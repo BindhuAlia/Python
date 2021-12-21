@@ -1,0 +1,14 @@
+n=(input('enter a number'))
+c=len(n)
+n=int(n)
+l=c//2
+b=10**l
+p1=n//b
+p2=n%b
+if p1>p2:
+    print(p1-p2)
+else:
+    print(p2-p1)
+
+    
+   
