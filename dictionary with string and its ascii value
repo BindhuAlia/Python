@@ -1,0 +1,14 @@
+n=input('enter name')
+d={}
+for i in n:
+    d.update({i:ord(i)})
+print(d)
+    
+    (or)
+    
+n=input('enter name')
+d={}
+for i in n:
+    d[i]=ord(i)
+print(d)
+    
