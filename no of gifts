@@ -1,0 +1,8 @@
+p=int(input('enter no of persons'))
+g=int(input('enter no of gifts'))
+if g%p==0:
+    print("equally distributed")
+else:
+    b=g%p
+    print('no of gifts needed',p-b)
+    
