@@ -1,0 +1,6 @@
+l=[1,1,2,3,45,3,34,43]
+b=[]
+for i in l:
+    if l.count(i) is 1:
+        b.append(i)
+print(b)
