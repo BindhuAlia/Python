@@ -1,0 +1,4 @@
+a='korea is pretty'
+print('pretty' in a)
+print('alia' in a)
+print('bindhu' in 'bindhu alia')
