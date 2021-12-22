@@ -1,0 +1,28 @@
+method-1
+
+n=int(input('enter number'))
+m=int(input('enter number'))
+c=n+m
+for i in range(c,c+10):
+    co=0
+    for j in range(1,c+10):
+        if i%j==0:
+            co=co+1
+    if co==2:
+        print(i-c)
+        break
+        
+method-2
+f=int(input("1st day:"))
+s=int(input("2nd day:"))
+for i in range(1,10):
+    count=0
+    t=f+s+i
+    for j in range(1,t+1):
+        if(t%j==0):
+            count=count+1
+    if(count==2):
+        print(i)
+        break
+
+    
