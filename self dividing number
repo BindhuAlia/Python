@@ -1,0 +1,18 @@
+n=input()
+l=len(n)
+n=int(n)
+c=0
+while(n>0):
+    r=n%10
+    if r==0:
+        print('not valid number to check')
+        break
+    else:
+        if n%r==0:
+            c=c+1
+    n=n//10
+if c==l:
+    print('self dividing number')
+else:
+    print('not self dividing number ')
+            
