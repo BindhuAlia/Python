@@ -1,0 +1,6 @@
+n=int(input())
+d=n**0.5
+if 2*d==n:
+    print('Perfect Square')
+else:
+    print('Not a Perfect Square')
